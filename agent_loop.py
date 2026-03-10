@@ -97,7 +97,7 @@ def main():
 
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
 
-    print(f"[agent] Starting autoScaffold — {args.experiments} experiments planned")
+    print(f"[agent] Starting autoAgentScaffoldingresearch — {args.experiments} experiments planned")
     print(f"[agent] Current experiment count: {get_experiment_count()}")
 
     for i in range(args.experiments):

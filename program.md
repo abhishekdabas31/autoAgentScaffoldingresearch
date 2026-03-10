@@ -1,4 +1,4 @@
-# autoScaffold — Research Program
+# autoAgentScaffoldingresearch — Research Program
 
 ## Goal
 Maximize `task_success_rate` while minimizing token usage per task.

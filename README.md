@@ -1,4 +1,4 @@
-# autoScaffold
+# autoAgentScaffoldingresearch
 
 > Closed labs master model weights. This repo masters the space between the weights.
 
@@ -7,7 +7,7 @@ Inspired by [karpathy/autoresearch](https://github.com/karpathy/autoresearch).
 
 ## The Idea
 
-| autoresearch | autoScaffold |
+| autoresearch | autoAgentScaffoldingresearch |
 |---|---|
 | Fixed domain: LLM training | Fixed domain: agentic task suite |
 | Editable: `train.py` | Editable: `scaffold.py` |
@@ -17,8 +17,8 @@ Inspired by [karpathy/autoresearch](https://github.com/karpathy/autoresearch).
 ## Setup
 
 ```bash
-git clone <your-repo>
-cd autoscaffold
+git clone https://github.com/abhishekdabas31/autoAgentScaffoldingresearch.git
+cd autoAgentScaffoldingresearch
 pip install -r requirements.txt
 git init && git add . && git commit -m "init"
 export ANTHROPIC_API_KEY=sk-...
