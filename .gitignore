@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env
+results/best_score.txt
